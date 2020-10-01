@@ -13,8 +13,9 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <ItemContainer cake/>
-        <ItemContainer/>
+        <ItemContainer />
         <CakeContainer />
+        <DonutContainer/>
         <IceCreamContainer />
         <NewCakeContainer/>
       </div>
